@@ -1,0 +1,17 @@
+{
+  "name": "ts-intro",
+  "license": "NOLICENSE",
+  "version": "0.0.1",
+  "devDependencies": {
+    "typescript": "~5.8.0"
+  },
+  "scripts": {
+    "build": "pnpm tsc",
+    "dev": "pnpm tsc --watch --preserveWatchOutput",
+    "typecheck": "pnpm tsc -P . --noEmit"
+  },
+  "volta": {
+    "node": "18.18.2",
+    "yarn": "3.6.4"
+  }
+}
